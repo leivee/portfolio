@@ -11,3 +11,11 @@
 };
 
 /* main content */
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left
+}
