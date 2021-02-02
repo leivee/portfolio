@@ -13,3 +13,12 @@ function loadpage(e) {
 }
 
 $(document).on(`click`, `#menu a`, loadpage);
+
+
+
+function submission(e) {
+  e.preventDefault();
+  alert (`Thank you!`);
+}
+
+$(document).on(`click`, `#submit_btn`, submission);
