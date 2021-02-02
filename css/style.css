@@ -1,21 +1,21 @@
 /* gallery */
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-};
-
-.column {
-  flex: 50%;
-  max-width: 50%;
-};
-
-/* main content */
-
-.float-right {
-  float: right;
+#gallery {
+  padding: 1em;
 }
 
-.float-left {
-  float: left
+.project_image {
+  width: 500px;
+  height: 500px;
+  padding: 2rem;
 }
+
+.project_image:hover {
+  opacity: 0.3;
+}
+.my_image {
+  width: 200px;
+  height: auto;
+  margin-left: 10rem;
+}
+
